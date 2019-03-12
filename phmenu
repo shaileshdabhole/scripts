@@ -1,0 +1,12 @@
+#! /usr/bin/python
+rotip = input (" Enter price of roti : ")
+rotiq = input (" Enter price of roti : ")
+print "#" * 20
+print "#" * 6 + "  MENU  " + "#" * 6
+
+print "##### Items Available #####"
+print "Item 	Price"
+print "Roti	 %d 	" % (rotip)
+print "Your Bill "
+print "Item	Price	Quanity	Total"
+print "Roti	%d" % rotip + "	%d" % rotiq + "    %d" %(rotip * rotiq)  
